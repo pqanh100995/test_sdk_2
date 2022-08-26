@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.anhpq.sofr.field_validator",
+    "module": "field_validator",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "field_validator-1.0.aar",
+          "url": "field_validator-1.0.aar",
+          "size": 3390,
+          "sha512": "1c36b1f9c0e099cddb85236d907415908414c3931c490b900617c7d5aa19e4fe1fa25e0fc33640ccc7639b4ec27cea1d463da43251d55486d55b60de0c32a2b1",
+          "sha256": "f84d7570e6d337e069023976482be96c0e11430dae9b2621c1acdab7740092ae",
+          "sha1": "0c8b13077fcd19429f7971844291f540da9bd81a",
+          "md5": "d88a2f12cef12507c1a91680e9c545fa"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "field_validator-1.0.aar",
+          "url": "field_validator-1.0.aar",
+          "size": 3390,
+          "sha512": "1c36b1f9c0e099cddb85236d907415908414c3931c490b900617c7d5aa19e4fe1fa25e0fc33640ccc7639b4ec27cea1d463da43251d55486d55b60de0c32a2b1",
+          "sha256": "f84d7570e6d337e069023976482be96c0e11430dae9b2621c1acdab7740092ae",
+          "sha1": "0c8b13077fcd19429f7971844291f540da9bd81a",
+          "md5": "d88a2f12cef12507c1a91680e9c545fa"
+        }
+      ]
+    }
+  ]
+}
